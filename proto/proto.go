@@ -30,12 +30,3 @@ type Response struct {
 	Data *json.RawMessage `json:"data"`
 }
 
-// Fraction -- дробь.
-//type Fraction struct {
-//	// Числитель (в десятичной системе, разрешён знак).
-//	Numerator string `json:"num"`
-//
-//	// Знаменатель (в десятичной системе).
-//	Denominator string `json:"denom"`
-//}
-
